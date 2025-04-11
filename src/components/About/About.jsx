@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./About.module.css";
-import hero from "../../assets/hero/Hero/p3.png";
-import cursorIcon from "../../assets/about/cursorIcon.png";
-import serverIcon from "../../assets/about/serverIcon.png";
+import hero from "../../assets/Hero/p3.png";
+import cursorIcon from "../../assets/About/cursorIcon.png";
+import serverIcon from "../../assets/About/serverIcon.png";
 
 const About = () => {
   return (
