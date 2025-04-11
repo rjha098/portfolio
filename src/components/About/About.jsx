@@ -15,7 +15,7 @@ const About = () => {
       />
       <ul className={styles.aboutItems}>
         <li className={styles.aboutItem}>
-          <img src="./src/assets/About/cursorIcon.png" alt="cursor icon" />
+          <img src={cursorIcon} alt="cursor icon" />
           <div className={styles.aboutItemText}>
             <h3>Frontend Devloper</h3>
             <p>
@@ -26,7 +26,7 @@ const About = () => {
         </li>
 
         <li className={styles.aboutItem}>
-          <img src="./src/assets/About/serverIcon.png" alt="server icon" />
+          <img src={serverIcon} alt="server icon" />
           <div className={styles.aboutItemText}>
             <h3>Backend Devloper</h3>
             <p>
