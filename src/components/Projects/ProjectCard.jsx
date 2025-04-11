@@ -20,13 +20,11 @@ export const ProjectCard = ({ project }) => {
           ))}
         </ul>
         <div className={styles.links}>
-          
           <a
             href={project.sourceLink}
             className={styles.link}
             target="_blank"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             Source
           </a>
         </div>
