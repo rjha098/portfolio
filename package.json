@@ -1,5 +1,8 @@
 {
   "name": "portfolio",
+  "homepage": "https://rjha098.github.io/portfolio/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +15,7 @@
   "dependencies": {
     "@fontsource/outfit": "^5.2.5",
     "@fontsource/roboto": "^5.2.5",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
