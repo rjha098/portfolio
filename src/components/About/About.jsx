@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./About.module.css";
+import hero from "../../assets/hero/Hero/p3.png";
+import cursorIcon from "../../assets/about/cursorIcon.png";
+import serverIcon from "../../assets/about/serverIcon.png";
 
 const About = () => {
   return (
@@ -7,7 +10,7 @@ const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
       <img
-        src="./src/assets/Hero/p3.png"
+        src={hero}
         alt=" me sitting with a laptop" className={styles.aboutImage}
       />
       <ul className={styles.aboutItems}>
