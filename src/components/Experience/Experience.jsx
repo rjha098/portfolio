@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
+import project from "../../assets/history/AIRBNB.png";
 
 // Import all skill images dynamically
 const skillImages = import.meta.glob("../../assets/skills/*.png", {
@@ -29,41 +30,24 @@ export const Experience = () => {
           })}
         </div>
         <ul className={styles.history}>
+          <li className={styles.historyItem}>
+            <img src={project} alt="Personal Project logo" />
 
-<li className={styles.historyItem}>
+            <div className={styles.historyItemDetails}>
+              <h3>Full Stack Project</h3>
 
-  <img
+              <p>Jan, 2024 - Mar, 2024</p>
 
-    src="./src/assets/history/AIRBNB.png"
-
-    alt="Personal Project logo"
-
-  />
-
-  <div className={styles.historyItemDetails}>
-
-    <h3>Full Stack Project</h3>
-
-    <p>Jan, 2024 - Mar, 2024</p>
-
-    <ul style={{ listStyle: 'none', paddingLeft: 0, margin: 0 }}>
-
-      <li >
-
-        Built a full-featured Airbnb clone using HTML, CSS,
-
-        JavaScript, and  Ejs,Node.js, Express js
-
-      </li>
-
-    </ul>
-
-  </div>
-
-</li>
-
-        </ul>
-
+              <ul style={{ listStyle: "none", paddingLeft: 0, margin: 0 }}>
+                <li>
+                  Built a full-featured Airbnb clone using HTML, CSS,
+                  JavaScript, and Ejs,Node.js, Express js
+                </li>
+              </ul>
+            </div>
+          </li>
+                  
+        </ul>
       </div>
     </section>
   );

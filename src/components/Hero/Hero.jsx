@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import hero from "../../assets/Hero/p3.png";
+
 
 const Hero = () => {
   return (
@@ -15,7 +17,7 @@ const Hero = () => {
           Contact me
         </a>
       </div>
-      <img src="./src/assets/Hero/p3.png" alt="hero image" className={styles.heroImg} />
+      <img src={hero} alt="hero image" className={styles.heroImg} />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
 
