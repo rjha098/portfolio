@@ -31,7 +31,7 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img className={styles.rol} src={RESUME} alt="resume" />
-          <a href="https://drive.google.com/file/d/13M_YipNJaBhr6GSDIyuzJOvH1fIYeDBJ/view?usp=sharing">Download my resume</a>
+          <a href="https://drive.google.com/file/d/1KtEf943Os7hYj6W1BgzIDon-ff2QbcqQ/view?usp=sharing">Download my resume</a>
            
         </li>
       </ul>
