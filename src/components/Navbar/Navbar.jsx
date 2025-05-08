@@ -5,9 +5,6 @@ import styles from "./Navbar.module.css";
 import menuIcon from "../../assets/nav/menuIcon.png";
 import closeIcon from "../../assets/nav/closeIcon.png";
 
-
-
-
 export const Navbar = () => {
   const [menuopen, setmenuopen] = useState(false);
   return (
@@ -16,18 +13,16 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-   
-      <img
+        <img
           className={styles.menuBtn}
           src={menuopen ? closeIcon : menuIcon}
           alt="menu-button"
-          onClick={()=>setmenuopen(!menuopen)}
+          onClick={() => setmenuopen(!menuopen)}
         />
 
-        <ul className={`${styles.menuItems} ${menuopen && styles.menuopen}`} onClick={()=> setmenuopen(false)} >
-
-          
-        
+        <ul
+          className={`${styles.menuItems} ${menuopen && styles.menuopen}`}
+          onClick={() => setmenuopen(false)}>
           <li>
             <a href="#about">About</a>
           </li>
